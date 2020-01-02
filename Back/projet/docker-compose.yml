@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  app1:
+    container_name: igl_app7
+    build: ./laravel5
+    volumes:
+      - ./laravel5/app
+    ports:
+      - 8002:80
+  app2:
+    container_name: igl_app8
+    build: ./my-project
+    volumes:
+      - ./my-project/app
+    ports:
+      - 8003:80

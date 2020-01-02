@@ -1,0 +1,8 @@
+   Pour exécuter le test Selenium vous devez : 
+1-Avoir NPM et node.js sur votre machine.
+2- Installer Selenium WebDriver 
+3- Installer Chromedriver & Geckodriver
+4- Ajouter les locations de  Chromedriver & Geckodriver le système des variables PATH (Chemin absolu) 
+Pour exécuter le test : utilisez la commande  node tests.js
+
+Si cela ne fonctionne pas sur votre machine, nous pouvons facilement l'éxexuter sur la notre. 
